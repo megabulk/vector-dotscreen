@@ -182,9 +182,7 @@ Pass `--output <path>` to override entirely.
   reliably apply the viewBox-based scaling `<use>` needs from a
   `<symbol>` — it can render every instance at a fixed, cropped size
   instead of scaling correctly. Inlining sidesteps that entirely.
-- If an example image doesn't render on GitHub, check that spaces in the
-  filename are URL-encoded as `%20` in the `src` path.
 
 ## License
 
-*(add your preferred license here)*
+GNU GENERAL PUBLIC LICENSE
