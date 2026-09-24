@@ -114,64 +114,76 @@ Pass `--output <path>` to override entirely.
   command used as the caption underneath.
 -->
 
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 star.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape star --star-points 5 --star-inner-ratio 0.4</code>
-</p>
-
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 star inv.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape star --star-points 5 --star-inner-ratio 0.4 --invert</code>
-</p>
-
+<h3 align="center">Default (circle)</h3>
 <p align="center">
   <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 min-radius 4.svg" width="800"><br>
   <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4</code>
 </p>
 
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 square.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape square</code>
-</p>
-
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 diamond.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape diamond</code>
-</p>
-
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 custom rot 15.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape custom --shape-svg dollar.svg</code>
-</p>
-
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 mr 4 custom scale 2.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape custom --shape-svg dollar.svg --shape-svg-scale 2</code>
-</p>
-
-<p align="center">
-  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 custom rot 0.svg" width="800"><br>
-  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape custom --shape-svg dollar.svg --shape-rotation 0</code>
-</p>
-
+<h3 align="center">Colored</h3>
 <p align="center">
   <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 colored.svg" width="800"><br>
   <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --color '#f75dff' --background '#62ff77'</code>
 </p>
 
+<h3 align="center">Black point clamping</h3>
 <p align="center">
   <img src="examples/marilyn_halftone s20 a15 ob 100 ow 255.svg" width="800"><br>
   <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --output-black 100</code>
 </p>
 
+<h3 align="center">White point clamping</h3>
 <p align="center">
   <img src="examples/marilyn_halftone s20 a15 ob 0 ow 155.svg" width="800"><br>
   <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --output-white 155</code>
 </p>
 
+<h3 align="center">Blur</h3>
 <p align="center">
   <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 bl 100.svg" width="800"><br>
   <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --blur 100</code>
+</p>
+
+<h3 align="center">Square shape</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 square.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape square</code>
+</p>
+
+<h3 align="center">Diamond shape</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 diamond.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape diamond</code>
+</p>
+
+<h3 align="center">Star shape (5 points)</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 star.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape star --star-points 5 --star-inner-ratio 0.4</code>
+</p>
+
+<h3 align="center">Inverted star shape</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 star inv.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape star --star-points 5 --star-inner-ratio 0.4 --invert</code>
+</p>
+
+<h3 align="center">Custom shape</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 custom rot 15.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape custom --shape-svg dollar.svg</code>
+</p>
+
+<h3 align="center">Custom shape, scaled</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 mr 4 custom scale 2.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape custom --shape-svg dollar.svg --shape-svg-scale 2</code>
+</p>
+
+<h3 align="center">Custom shape, rotated</h3>
+<p align="center">
+  <img src="examples/marilyn_halftone s20 a15 ob 0 ow 255 custom rot 0.svg" width="800"><br>
+  <code>python vector_halftone_shapes.py marilyn.png --spacing 20 --angle 15 --min-radius 4 --shape custom --shape-svg dollar.svg --shape-rotation 0</code>
 </p>
 
 ## Notes
